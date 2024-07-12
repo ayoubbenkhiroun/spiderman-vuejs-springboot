@@ -1,0 +1,25 @@
+version: '3'
+services:
+  backend:
+    image: spiderman-backend
+    build:
+      context: ./SpiderMan
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - spiderman-network
+
+  frontend:
+    image: spiderman-frontend
+    build:
+      context: ./my-vue-app
+      dockerfile: Dockerfile
+    ports:
+      - "8085:80"
+    networks:
+      - spiderman-network
+
+networks:
+  spiderman-network:
+    driver: bridge
