@@ -61,12 +61,4 @@
 4. Poussez vers la branche (`git push origin feature/AmazingFeature`)
 5. Ouvrez une Pull Request
 
-## Licence
 
-Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
-
-## Contact
-
-Votre Nom - Ayoub Ben Khiroun(mailto:ayoub.benkhiroun@gmail.com)
-
-Lien du projet : [https://github.com/votre-nom-utilisateur/nom-du-depot](https://github.com/votre-nom-utilisateur/nom-du-depot)
